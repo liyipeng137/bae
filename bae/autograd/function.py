@@ -205,7 +205,7 @@ Edge: (indexing, mapping)
 
 G: (V: [Node...], E: [Edge...])
 
-for each e = (u, v) \in E
+for each e = (u, v) in E
 parent[loss] = (project, [camera_indexed, point_indexed])
 parent[camera_indexed] = ((indexing, indices), camera_parameters)
 
